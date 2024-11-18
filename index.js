@@ -4,7 +4,7 @@ const port = process.env.PORT || 4000;
 const cors = require("cors");
 app.use(cors());
 app.get('/',(req,res)=>{
-  res.send('Hello')
+  res.send('Hello Naresh')
 })
 
 app.listen(port,()=>{
